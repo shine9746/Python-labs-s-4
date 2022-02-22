@@ -5,7 +5,7 @@ currentdate = datetime.now()
 
 datedifference = timedelta(5)
 
-print("Current date is : ",currentdate)
+print("Current date is : ",currentdate.date())
 
-print("Five days before  the current date is : ",currentdate-datedifference)
+print("Five days before  the current date is : ",currentdate.date()-datedifference)
 
