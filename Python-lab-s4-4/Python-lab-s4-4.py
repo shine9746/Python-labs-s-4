@@ -3,6 +3,8 @@ from datetime import date
 
 week  = date(year = 2015,month = 6,day=16)
 
+print("The date is : ",week)
+
 weeknumber = week.strftime("%W")
 
 print("The week number is : ",weeknumber)
